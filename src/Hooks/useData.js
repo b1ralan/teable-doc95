@@ -8,7 +8,7 @@ export const useData = () => {
 
   // Запрос данных из БД
   useEffect(() => {
-    axios.get('http://localhost:3001/db.json')
+    axios.get('https://react-table-app-doc95.herokuapp.com/api')
       .then(({data}) => {
         setData(data.data);
         setLoading(false);
