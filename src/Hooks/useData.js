@@ -8,7 +8,7 @@ export const useData = () => {
 
   // Запрос данных из БД
   useEffect(() => {
-    axios.get('http://localhost:3001/data.json')
+    axios.get('http://localhost:3001/db.json')
       .then(({data}) => {
         setData(data.data);
         setLoading(false);
