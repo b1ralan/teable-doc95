@@ -1,0 +1,70 @@
+.container {
+    max-width: 1361px;
+    margin-left: 230px;
+}
+
+.searchBlock {
+    padding: 15px 0 15px 0;
+    font-size: 16px;
+    color: rgba(0, 76, 178, 0.91);
+}
+
+.searchBlock input {
+    margin-left: 15px;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    outline: none;
+}
+
+.searchBlock input::placeholder {
+    color: rgba(0, 76, 178, 0.4);
+}
+
+.tableContainer {
+    overflow: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #61dafb;
+}
+
+.table th {
+    font-weight: bold;
+    color: rgba(0, 76, 178, 0.91);
+    padding: 5px 5px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+.table tr:nth-child(2n) {
+    background: #e8edff;
+}
+
+.table td {
+    color: #669;
+    border: 1px solid #dddddd;
+    padding: 5px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.stickyLeft {
+    min-width: 100px;
+    position: sticky;
+    left: 0;
+}
+
+.stickyRight {
+    min-width: 160px;
+    position: sticky;
+    right: 0;
+}
+
+.colm {
+    width: 5%;
+}
