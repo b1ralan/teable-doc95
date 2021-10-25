@@ -4,6 +4,7 @@ import {useData} from "./Hooks/useData";
 import ScrollContainer from 'react-indiana-drag-scroll';
 
 import style from './styles.module.css';
+
 import {useSortableData} from "./Hooks/useSortableData";
 import Weather from "./components/Weather/Weather";
 import Pagination from "./components/Pagination";
